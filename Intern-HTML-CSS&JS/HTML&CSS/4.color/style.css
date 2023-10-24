@@ -1,0 +1,21 @@
+.message{
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+.title{
+    color: #DA0C81;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+.latter{
+    color: rgb(60, 179, 113);
+    background-color: black;
+    text-align: center;
+    padding: 35px;
+    margin: 25px;
+}

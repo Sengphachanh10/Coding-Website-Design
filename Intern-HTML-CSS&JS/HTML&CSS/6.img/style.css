@@ -1,0 +1,11 @@
+body{
+    /* background-color: black; */
+    background-image: url(https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid rgb(217, 20, 20);
+}

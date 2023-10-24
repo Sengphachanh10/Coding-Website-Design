@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+.box{
+    background-color: aqua;
+    color: deeppink;
+    border: 5px solid black;
+    text-align: center;
+}

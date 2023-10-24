@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header-Selection-Footer</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: deeppink;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+        }
+         a{
+            text-decoration: none;
+            margin: 10px;
+        }
+        section{
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        footer{
+            background-color: cyan;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>
+            Hello
+        </h1>
+    </section>
+    <section id="about">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, harum.</p>
+    </section>
+    <footer id="contact">
+        <p>Copyright by CEIT</p>
+    </footer>
+</body>
+</html>
